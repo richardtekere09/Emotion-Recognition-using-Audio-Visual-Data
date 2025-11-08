@@ -1,0 +1,40 @@
+# Ignore Python bytecode files & Byte-compiled / optimized / DLL files
+*.pyc
+__pycache__/
+*egg-info
+*.py[cod]
+*.pyc[cod]
+*.orig
+*.bak
+*.rar
+*.zip
+*.tar
+*.dat
+**/temp/
+**/_jit/
+**/_logging/
+**/experiments/
+**/cfg/
+**/*.pkl
+**/*.pth
+*.sif
+*.simg/
+tmp_overlay/
+
+# Logs
+*.log
+
+# Ignore virtual environment
+/venv/
+/*.env
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Ignore dataset files (these can be large)
+data/raw/*
+data/processed/*
+
+# Ignore model checkpoints
+models/*.pth

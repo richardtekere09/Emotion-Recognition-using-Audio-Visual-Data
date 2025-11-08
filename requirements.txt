@@ -1,0 +1,16 @@
+# General dependencies for deep learning and preprocessing
+torch==1.10.0
+torchvision==0.11.1
+torchaudio==0.10.0
+librosa==0.8.1
+opencv-python==4.5.3.56
+tqdm==4.62.3
+scikit-learn==0.24.2
+matplotlib==3.4.3
+seaborn==0.11.2
+scipy==1.7.1
+pandas==1.3.3
+numpy==1.21.2
+
+# For data loading and model evaluation
+tensorboard==2.6.0
